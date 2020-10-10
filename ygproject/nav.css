@@ -1,0 +1,105 @@
+ nav{
+    height: 50px;
+    width: 1160px;
+    /* background: blueviolet; */
+    position:absolute;
+    z-index: 2;
+    left: 50px;
+  }
+  .navigation .logo{
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    /* background-color: brown; */
+    line-height: 50px;
+    text-align: center;
+  }
+  .navigation .logo a{
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .navigation ul{
+    position:absolute;
+    height: 50px;
+    width: 1000px;
+    /* background: blue; */
+    left: 90px;
+  }
+  .navigation ul li{
+    display: flex;
+    justify-content: center;
+    /* background-color: cadetblue; */
+    float: left;
+    height: 50px;
+    width: 110px;
+  }
+  .navigation ul li a{
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+    width: 90px;
+    /* background-color: crimson; */
+    text-decoration: none;
+  }
+  .shopping{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    right: -30px;
+ 
+  }
+  .shopping #shopa{
+    cursor: pointer;
+    font-size: 40px;
+  }
+  #menus{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    right: -30px;
+    top: 67.5px;
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  #menus .triangle{
+    position: absolute;
+    top: -16.5px;
+    right: 25px;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 17px solid white;
+}
+#menus .menus_center{
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menus .menus_center li{
+  height: 60px;
+  width: 180px;
+  /* text-align: center; */
+  line-height: 80px;
+  border-bottom: 1px solid black; 
+}
+#menus .menus_center li:nth-child(3){
+  border-bottom: none;
+}
+#menus .menus_center li a{
+  display: block;
+  text-decoration: none;
+  height: 40px;
+  width: 100%;
+  color:black;
+  margin-left: 50px;
+}
